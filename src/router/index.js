@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import demo from '../views/demo.vue'
+import blindtest from '../views/blindtest.vue'
 import PokemonDetails from '../views/PokemonDetails.vue'
 
 Vue.use(VueRouter)
@@ -26,7 +27,12 @@ const routes = [
     name: 'demo',
     component: demo
   },
-
+  
+  {
+    path: '/blindtest',
+    name: 'blindtest',
+    component: blindtest
+  },
   {
     path: '/about',
     name: 'About',

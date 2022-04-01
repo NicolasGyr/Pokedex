@@ -77,6 +77,7 @@ export default {
     .then(pokemons =>{
       this.pokemons = pokemons
     })
+    
 
   }
 }

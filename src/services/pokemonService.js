@@ -76,8 +76,6 @@ export class PokemonService {
                     console.log(response.data.results)
                     let result = response.data.results;
                     result.forEach(p => {
-
-
                         let substrings = p.url.split("/");
                         let id = substrings[substrings.length - 2];
                         p.img = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/'+id+'.png'
