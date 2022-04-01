@@ -2,7 +2,7 @@
 import axios from 'axios';
 // import { resolve } from 'core-js/library/es6/promise';
  import { Pokemon } from '../models/pokemon';
-//import { reject, resolve } from 'core-js/fn/promise';
+//import ekip  { reject, resolve } from 'core-js/fn/promise';
 
 
 
